@@ -11,6 +11,7 @@ Integrate Santa with Intune
 
 
 Here is an example of the xml required to block Firefox:
+
  <dict>
 	<!-- Always BLOCK Firefox based on TEAMID-->
 	<key>identifier</key>
@@ -19,7 +20,7 @@ Here is an example of the xml required to block Firefox:
 	<string>BLOCKLIST</string>
 	<key>rule_type</key>
 	<string>TEAMID</string>
-</dict>
+ </dict>
 
 Note:
 The modified.com.northpolesec.santa.example.mobileconfig in this repo includes this modification. 
