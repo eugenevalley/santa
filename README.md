@@ -4,7 +4,7 @@ Santa is a binary and file access authorization system for macOS. It consists of
 
 It is named Santa because it keeps track of binaries that are naughty or nice.
 
-The project and the latest release is available on GitHub.
+The project and the latest release is available on GitHub: https://github.com/northpolesec/santa.
 
 Currently, Intune does not have functionality to block applications from running like it does on Windows endpoints.
 To work around this, we can implement Santa with custom mobileconfig profiles.
