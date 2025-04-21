@@ -6,7 +6,7 @@ It is named Santa because it keeps track of binaries that are naughty or nice.
 
 The project and the latest release is available on GitHub: https://github.com/northpolesec/santa.
 
-Currently, Intune does not have functionality to block applications from running like it does on Windows endpoints.
+Currently, Intune does not have functionality to block applications from running on macOS endpoints like it does on Windows endpoints.
 To work around this, we can implement Santa with custom mobileconfig profiles.
 When using custom mobileconfig profiles, there is no need to bring up a Santa sync server as the rules are applied directly via Intune.
 
