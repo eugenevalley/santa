@@ -1,5 +1,11 @@
-# santa
-Integrate Santa with Intune
+# Integrate Santa with Intune
+
+Santa is a binary and file access authorization system for macOS. It consists of a system extension that allows or denies attempted executions using a set of rules stored in a local database, a GUI agent that notifies the user in case of a block decision, a sync daemon responsible for syncing the database, and a server, and a command-line utility for managing the system.
+
+It is named Santa because it keeps track of binaries that are naughty or nice.
+
+The project and the latest release is available on GitHub.
+
 
 1. Download the Santa *.pkg here and deploy it using Intune: https://github.com/northpolesec/santa/releases/tag/2025.3
 2. Download and modify the com.northpolesec.santa.example.mobileconfig file in this repo and customize it to contain any applications you want to block. The modified.com.northpolesec.santa.example.mobileconfig in this repo contains the xml required to block Firefox using the Team ID for Mozilla.  
